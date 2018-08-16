@@ -11,7 +11,7 @@ function main() {
 
   let originalImage = { width: 1, height: 1 }; // replaced after loading
   const originalTexture = twgl.createTexture(gl, {
-    src: "img/cow.jpg", 
+    src: "img/cowcolor.jpg", 
     crossOrigin: '',
   }, (err, texture, source) => {
     originalImage = source;
