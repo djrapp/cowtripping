@@ -11,14 +11,14 @@ function main() {
 
   let originalImage = { width: 1, height: 1 }; // replaced after loading
   const originalTexture = twgl.createTexture(gl, {
-    src: "https://preview.ibb.co/esL92e/cow2_color.jpg", 
+    src: "img/cow.jpg", 
     crossOrigin: '',
   }, (err, texture, source) => {
     originalImage = source;
   });
   
   const mapTexture = twgl.createTexture(gl, {
-    src: "https://image.ibb.co/mNnvaz/cow2depth3.jpg", crossOrigin: '',
+    src: "img/cowmap.jpg", crossOrigin: '',
   });
   
 
