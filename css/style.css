@@ -1,0 +1,28 @@
+body{
+		margin: 0;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 25px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.text{
+    position: absolute;
+	  top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+		color: #FFFFFF; 
+}
+
+canvas{
+	width: 100vw;
+	height: 100vh;
+	z-index: 1
+}
